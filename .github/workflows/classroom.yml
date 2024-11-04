@@ -55,7 +55,7 @@ jobs:
       with:
         test-name: ex5
         setup-command: npm install
-        command: CI=true npm test -- -t "ex5"
+        command: CI=true npm test -- -t "ex4|5"
         timeout: 2
         max-score: 16
     - name: ex6
