@@ -70,6 +70,8 @@ describe("ex1", () => {
 // --------------------------------------------------------------------------------
 // EXERCISE 2
 // --------------------------------------------------------------------------------
+
+
 describe("ex2", () => {
   test("Should throw an error if the digit is not a number between 0 and 9", () => {
     const invalidInputs = [-1, 10, 1500, 'a', 'JavaScript', undefined, null, Symbol(), new Error(), []];
@@ -572,3 +574,4 @@ describe('ex6', () => {
         expect(construction.getLocation()).toBe('New City');
     });
 });
+
